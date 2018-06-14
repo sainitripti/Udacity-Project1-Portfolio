@@ -1,0 +1,54 @@
+@media screen and (max-width:1120px){
+	main{
+		padding:0;
+	}
+}
+
+@media screen and (max-width:850px){
+	.intro-wrapper{
+		padding: 40px;
+	}
+	#profile-img{
+		height:300px;
+	}
+}
+
+@media screen and (max-width:600px){
+	#profile-img{
+		float:none;
+	}
+
+	.intro-content{	
+		font-size: 16px;
+	}
+
+	.work-wrapper{
+		padding:20px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	header{
+		padding:15px;
+	}
+
+	.title{
+		font-size: 26px;
+	}
+
+	#profile-img{
+		margin:15px;
+	}
+
+	.intro-wrapper{
+		padding: 20px 10px;
+	}
+
+	.intro-content{
+		font-size: 14px;
+	}
+
+	.work-img{
+		height: 160px;
+	}
+}
